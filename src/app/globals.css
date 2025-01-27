@@ -38,6 +38,13 @@ body{
   font-weight: 600;
   font-family: var(--font-family);
 }
+
+.content-title-footer{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: var(--font-family);
+}
+
 .content-peragrap{
   font-size: 16px;
   font-weight: 400;
