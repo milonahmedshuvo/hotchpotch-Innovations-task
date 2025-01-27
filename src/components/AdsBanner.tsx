@@ -17,9 +17,9 @@ const AdsBanner = () => {
             </div>
 
 
-            <p className=" text-center mt-6 text-[16px] md:text-[18px] text-secondaryColor font-inter">Artificial intelligence writting tool helps you create blogs,</p>
+            <p className=" text-center mt-6 text-[16px] md:text-[18px] text-[#B7B8BB] font-inter">Artificial intelligence writting tool helps you create blogs,</p>
             
-            <p className="text-center text-[16px] md:text-[18px] leading-none text-secondaryColor font-inter">social media websites and much more.</p>
+            <p className="text-center text-[16px] md:text-[18px] leading-none text-[#B7B8BB] font-inter">social media websites and much more.</p>
 
             <div className="flex justify-center mt-6 md:mt-9">
             <GradientButton>Start 14 Days Free Trial</GradientButton>
