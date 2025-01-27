@@ -5,7 +5,7 @@ import contentFrame from "../images/content-frame.png"
 
 const Content = () => {
   return (
-    <div className=" my-20 px-10 md:px-20 flex flex-col justify-center md:items-center gap-y-10 lg:gap-x-48 w-full md:flex-row">
+    <div className=" md:mt-10 lg:mt-40 lg:mb-20  lg:px-20 flex flex-col justify-center md:items-center gap-y-10 md:gap-5 lg:gap-x-48 w-full md:flex-row">
 
         <div className=" relative border w-full md:w-1/2 text-primaryColor pl-4 pt-5 pr-5 pb-1 bg-primaryColor rounded-[7px] md:rounded-[12px]">
             <h1 className="text-darkColor font-semibold font-inter">Results</h1>
@@ -18,7 +18,7 @@ const Content = () => {
                 <p className="content-peragrap text-darkColor font-inter mt-3">Agitate: You have no idea how much sales tax to charge your customers in each state. charge your customers in each state.</p>
                 
 
-                <p className="content-peragrap text-darkColor font-inter mt-3">Solution: Use TaxSol, our full stack sales tax solution, to manage your sales tax solution, to manage your sales tax for you! for you! ...</p>
+                <p className="content-peragrap text-darkColor font-inter mt-3">Solution: Use TaxSol, our full stack sales tax solution, to manage your sales tax solution, to manage your sales tax for you</p>
                 
 
                 <p className="content-peragrap text-darkColor font-inter mt-9">Pain: e-commerce business owners are struggling to keep up with the ever changing sales tax owners are struggling to keep up with the ever laws </p>
@@ -26,8 +26,8 @@ const Content = () => {
                 <p className="content-peragrap text-darkColor font-inter mt-3">Agitate: Sales tax is a complicated, confusing</p>
             </div>
 
-            <div className="absolute top-[24%] right-[-200px] hidden lg:block  ">
-                <Image className="h-[260px]" src={contentFrame} width={500} height={300} alt="frame"/>
+            <div className="absolute top-[36%] right-[-200px] hidden lg:block  ">
+                <Image className="h-[260px]" src={contentFrame} width={500} height={500} alt="frame"/>
             </div>
         </div>
 

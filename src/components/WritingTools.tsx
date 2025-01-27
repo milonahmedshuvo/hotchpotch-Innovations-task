@@ -3,25 +3,20 @@ import GradientButton from "./GradientButton"
 
 const WritingTools = () => {
   return (
-    <div>
-      <p>title</p>
+    <div className=" mt-20 lg:mt-40 mb-20">
+
+
+      <div className=" lg:px-20 flex flex-col md:flex-row justify-center lg:items-center gap-y-10 md:gap-5  lg:gap-x-40 w-full">
 
 
 
-      <div className="my-20 px-10 md:px-20 flex flex-col justify-center lg:items-center gap-y-10 lg:gap-x-40 w-full lg:flex-row">
-
-
-
-        <div className=" w-1/2">
+        <div className="w-full md:w-1/2">
           <h1 className="content-title text-primaryColor leading-none">Write what you want to</h1>
           <h1 className="content-title text-primaryColor leading-none">convey through clear, &</h1>
           <h1 className="content-title text-primaryColor leading-none">authentic writing</h1>
 
 
-          <p className="text-[16px] md:text-[18px] text-[#B7B8BB] font-inter mt-6 md:mt-8 right-site-peragrap">150k+ users. No Credit Card Required. Pro designs and </p>
-
-          <p className="text-[16px] md:text-[18px] text-[#B7B8BB] font-inter right-site-peragrap">writing at no cost. Start for free. Ai Writer Tool | Generate</p>
-          <p className="text-[16px] md:text-[18px] text-[#B7B8BB] font-inter right-site-peragrap">text for ecom, social media, website, sales, blogs etc.</p>
+          <p className="text-[16px] md:text-[18px] text-[#B7B8BB] font-inter mt-6 md:mt-8 right-site-peragrap">150k+ users. No Credit Card Required. Pro designs and writing at no cost. Start for free. Ai Writer Tool | Generate text for ecom, social media, website, sales, blogs etc.</p>
 
           <div className="mt-6 md:mt-8">
             <GradientButton>tart 14 Days Free Tria</GradientButton>
@@ -33,7 +28,7 @@ const WritingTools = () => {
 
 
 
-        <div className="border flex gap-4  w-1/2 text-primaryColor p-4 bg-primaryColor rounded-[7px] md:rounded-[12px]">
+        <div className="border flex gap-4 w-full md:w-1/2 text-primaryColor pl-4 pt-4 pr-4 pb-0 bg-primaryColor rounded-[7px] md:rounded-[12px]">
 
 
           <div className="w-1/4">
@@ -101,6 +96,8 @@ const WritingTools = () => {
               <div className="h-1 w-9/12 bg-[#DDE2ED] rounded-md"></div>
             </div>
 
+
+            <div className="h-1 w-1/4 bg-[#DDE2ED] rounded-md mb-3 mt-12"></div>
           </div>
         </div>
 

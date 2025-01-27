@@ -39,7 +39,7 @@ body{
   font-family: var(--font-family);
 }
 .content-peragrap{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 .right-site-p{
@@ -68,9 +68,19 @@ body{
     font-size: 14px;
   }
 }
-@media (max-width: 576px){
 
-}
 @media (max-width: 768px){
 
+}
+
+@media (max-width: 1024px){
+  .content-title{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--font-family);
+  }
+  .content-peragrap{
+    font-size: 14px;
+    font-weight: 400;
+  }  
 }
