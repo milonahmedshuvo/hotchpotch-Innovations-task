@@ -1,21 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+  margin: 0;
+  padding: 0;
+}
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-family: 'Outfit';
+}
+body{
+  background-color:#12141D;
+  font-family: var(--font-family);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.navberTextStype {
+  font-weight: 500;
+  font-size: 19px;
+}
+.heading{
+  font-weight: 500;
+  font-size: 60px;
+  font-family: var(--font-family);
+}
+
+/* customers-pays-section // secound */
+.customers-pays-title{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  align-items: center;
+}
+
+
+/* Content write section // 3rd  */
+.content-title{
+  font-size: 42px;
+  font-weight: 600;
+  font-family: var(--font-family);
+}
+.content-peragrap{
+  font-size: 14px;
+  font-weight: 400;
+}
+.right-site-p{
+  font-weight: 300;
+}
+
+
+
+
+@media (max-width: 480px){
+  .heading{
+    font-weight: 500;
+    font-size: 50px;
+  }
+  .gradientButtonText{
+    font-size: 15px;
+  }
+
+  .content-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  
+  .right-site-peragrap{
+    font-size: 14px;
   }
 }
+@media (max-width: 576px){
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px){
+
 }
